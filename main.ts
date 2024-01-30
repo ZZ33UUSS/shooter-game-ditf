@@ -22,7 +22,7 @@ myBall.setTraceMulti(carnival.Tracers.Cross)
 let myBooth = sprites.create(assets.image`booth`, SpriteKind.Booth)
 myBooth.z = 20
 let statusbar = statusbars.create(120, 6, StatusBarKind.Energy)
-statusbar.setColor(5, 10)
+statusbar.setColor(5, 12)
 statusbar.setBarBorder(2, 1)
 statusbar.bottom = 115
 myBall.variablePower(statusbar, 30, 60)
