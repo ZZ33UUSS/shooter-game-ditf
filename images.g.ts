@@ -391,52 +391,6 @@ dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 `;
-            case "image3":
-            case "target":return img`
-..111111111111..
-.11111111111111.
-1112222222222111
-1122222222222211
-1122111111112211
-1122111111112211
-1122112222112211
-1122112222112211
-1122112222112211
-1122112222112211
-1122111111112211
-1122111111112211
-1122222222222211
-1112222222222111
-.11111111111111.
-..111111111111..
-bbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbb
-.bbbbbbbbbbbbbb.
-.bbbbbbbbbbbbbb.
-..ccc......ccc..
-..cfc......cfc..
-..ccc......ccc..
-................
-`;
-            case "Oq:k:~,/OWH0jL-|Ycd7":
-            case "ball-yellow":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . 8 8 8 8 . . . . . . 
-. . . . . 8 8 5 5 8 8 . . . . . 
-. . . . 8 8 5 6 6 5 8 8 . . . . 
-. . . . 8 5 6 5 5 5 5 8 . . . . 
-. . . . 8 5 6 5 6 5 5 8 . . . . 
-. . . . 8 8 5 5 5 5 8 8 . . . . 
-. . . . . 8 8 5 5 8 8 . . . . . 
-. . . . . . 8 8 8 8 . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`;
             case "image10":
             case "ball-blue":return img`
 . . . . . . . . . . . . . . . . 
@@ -455,6 +409,56 @@ bbbbbbbbbbbbbbbb
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
+`;
+            case "image3":
+            case "target":return img`
+..111111111111..
+.f111111111111f.
+f88881111112222f
+1888881111222221
+1188888112222211
+1118888822222111
+1111888882221111
+1111188118211111
+1111128118811111
+1111222888881111
+1112222288888111
+1122222118888811
+1222221111888881
+f22221111118888f
+.f111111111111f.
+..111111111111..
+bbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbb
+.bbbbbbbbbbbbbb.
+.bbbbbbbbbbbbbb.
+..ccc......ccc..
+..cfc......cfc..
+..ccc......ccc..
+................
+`;
+            case "Oq:k:~,/OWH0jL-|Ycd7":
+            case "ball-yellow":return img`
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+.....1........1.....
+.1....bbbbbbbb....1.
+..bbbbbffffffbbbbb..
+bbbffffffffffffffbbb
+bffffffffffffffffffb
+bffffffffffffffffffb
+bffffffffffffffffffb
+bffffffffffffffffffb
+bbbbbbbbbbbbbbbbbbbb
 `;
         }
         return null;

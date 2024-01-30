@@ -27,8 +27,6 @@ statusbar.setBarBorder(2, 1)
 statusbar.bottom = 115
 myBall.variablePower(statusbar, 30, 60)
 carnival.startCountdownGame(30, carnival.WinTypes.Score)
-carnival.customGameOverExpanded("¡TY For Play Darling!")
-game.setGameOverEffect(false, effects.clouds)
 forever(function () {
     projectile = sprites.createProjectileFromSide(assets.image`target`, 50, 0)
     projectile.bottom = 56
